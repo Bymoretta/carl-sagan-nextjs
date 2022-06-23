@@ -1,16 +1,70 @@
 html,
 body {
+  background-color: #07021c;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  color:rgb(255, 255, 255);
+  box-shadow: 2px 8px 10px gray;
+  
 }
 
 * {
   box-sizing: border-box;
 }
+h1{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  background-color: #191b5f;
+  color: aliceblue;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: 1px solid rgb(188, 188, 223);
+  box-shadow: 2px 8px 10px gray;
+  width: 30%;
+}
+h2{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  background-color: #191b5f;
+  color: aliceblue;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: 1px solid rgb(188, 188, 223);
+  box-shadow: 2px 8px 10px gray;
+  width: 30%;
+}
+h3{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  background-color: #191b5f;
+  color: aliceblue;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: 1px solid rgb(188, 188, 223);
+  box-shadow: 2px 8px 10px gray;
+  width: 30%;
+}
+p{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  text-align: rights;
+  contain: content;
+  border-radius: 5px;
+  border: 1px solid rgb(188, 188, 223);
+  box-shadow: 2px 8px 10px gray;
+  color: rgb(208, 221, 232);
+  text-shadow: #000000;
+}
+
