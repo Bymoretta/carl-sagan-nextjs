@@ -11,13 +11,13 @@ export default function ButtonAppBar() {
     return (
         
         <Box sx={{ flexGrow: 12 }}>
-            <AppBar position="fixed">
+            <AppBar  color="inherit" position="fixed">
                 
-                <Toolbar> Carl Sagan Biografia
+                <Toolbar color> Carl Sagan Biografia
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         
                     </Typography>
-                    <Button color="inherit" href='myaccount.google.com'>Mas Info</Button>
+                    <Button href="https://www.youtube.com/watch?v=kPnPXIvaaio"> Mas Info </Button>
                 </Toolbar>
             </AppBar>
         </Box>
