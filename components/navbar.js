@@ -11,13 +11,13 @@ export default function ButtonAppBar() {
     return (
         
         <Box sx={{ flexGrow: 12 }}>
-            <AppBar  color="inherit" position="fixed">
+            <AppBar  color="primary" position="fixed">
                 
                 <Toolbar color> Carl Sagan Biografia
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         
                     </Typography>
-                    <Button href="https://www.youtube.com/watch?v=kPnPXIvaaio"> Mas Info </Button>
+                    <Button color="inherit" href="https://listado.mercadolibre.com.ar/carl-sagan"> Mas Info </Button>
                 </Toolbar>
             </AppBar>
         </Box>
