@@ -1,5 +1,5 @@
-import '../styles/globals.css'
-import layout from '../components/Layout'
+import '../styles/globals.css';
+import layout from '../components/Layout';
 
 
 
