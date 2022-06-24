@@ -1,9 +1,7 @@
-Import Image from 'next/image';
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Cosmos from '../public/cosmos.gif'
-import Sagan from '../public/Sagan.jpg'
-import Navbar from '../components/navbar'
+import Image from 'next/image';
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Navbar from '../components/navbar';
 import { MuiImageList } from '../components/cards';
 import { ThemeProvider } from '@mui/private-theming';
 import theme from '../components/themeconfig';
@@ -18,15 +16,8 @@ export default function Home() {
           </Head>
       <ThemeProvider theme={theme}>
         <Navbar />
-
-
-
-        
-          
-
-        
         <main className={styles.main}>
-          <img src="cosmos.gif" alt='comos' height={200} width={3000} />
+          <Image src="/cosmos.gif" alt='comos' height={200} width={3000} />
           <br>
           </br>
           <br>
@@ -42,7 +33,7 @@ export default function Home() {
           </br>
           <br>
           </br>
-          <img className={Sagan} src="sagan.jpg" alt='Sagan' height={1000} width={2500} /><br>
+          <Image src="/Sagan.jpg" alt='Sagan' height={1000} width={2500} /><br>
           </br>
           <h2>
             ¿Quién fue Carl Sagan?
