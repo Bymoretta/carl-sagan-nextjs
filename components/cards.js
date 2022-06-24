@@ -1,4 +1,4 @@
-import {Stack,ImageList,ImageListItem,Box,ImageListItemBar} from '@mui/material'
+import {Stack,ImageList,ImageListItem} from '@mui/material'
 
 export const MuiImageList = () =>{
     return (

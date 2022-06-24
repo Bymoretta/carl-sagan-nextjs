@@ -1,11 +1,8 @@
 
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Cosmos from '../public/cosmos.gif'
 import Sagan from '../public/Sagan.jpg'
-
-import andromeda from '../public/andromeda.jpg'
 import Navbar from '../components/navbar'
 import { MuiImageList } from '../components/cards';
 import { ThemeProvider } from '@mui/private-theming';
