@@ -30,7 +30,7 @@ const Itemdata =[
         
     },
 {
-    img: '/contacto.jpg',
+    img: '/Contacto.jpg',
     title: 'Contacto',
 },
 {
