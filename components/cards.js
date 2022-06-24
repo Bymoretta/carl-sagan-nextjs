@@ -1,5 +1,5 @@
 import {Stack,ImageList,ImageListItem} from '@mui/material'
-
+import Image from 'next/image';
 export const MuiImageList = () =>{
     return (
         <Stack spacing={4}>
@@ -10,7 +10,7 @@ export const MuiImageList = () =>{
             {
                 Itemdata.map(item =>(
                     <ImageListItem key= {item.img}>
-                        <img src={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2`} 
+                        <Image src={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2`} 
                         alt={item.title} 
                         loading= 'lazy' 
                         />
